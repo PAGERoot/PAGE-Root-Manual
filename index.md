@@ -103,9 +103,9 @@ PAGER has two main functions:
 10. ANOVA comparison for each cell types between the two selected line
 
 11. Visualisation of the reporter data
-	- **Boxplot: **Boxplot of the reporter values for the different cell types
-	- **Regression plot: **Regression of the cell types reporter valeus between the two cell types
-	- **PCA plot: **Principal Comparison plot, highlighting the selected lines
+	- **Boxplot:** Boxplot of the reporter values for the different cell types
+	- **Regression plot:** Regression of the cell types reporter valeus between the two cell types
+	- **PCA plot:** Principal Comparison plot, highlighting the selected lines
 	- **AOV results:** Result talbe of the ANOVAcomparison between the two lines
 
 
