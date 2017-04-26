@@ -1,12 +1,12 @@
 
-# Using PAGE-Root
+# Using PAGER
 
 [More information about PAGER](http://pageroot.github.io)
 
 
 1. [Requirements](#requirements)
 2. [CellSet2PAGER](#cellset2pager)
-3. [PAGE-Root](#page-root)
+3. [PAGER](#PAGER)
 	- [Load the data](#load-the-data)
 	- [Choose the options](#choose-the-options)
 	- [Compare two lines](#compare-two-lines)
@@ -17,7 +17,7 @@
 ---
 
 ![](img/pager_root.jpg)
-<small>Overview of the PAGE-Root pipeline</small>
+<small>Overview of the PAGER pipeline</small>
 
 ---
 
@@ -27,7 +27,7 @@
 
 ## CellSet2PAGER
 
-The first step in the analysis is to transform the output data from CellSet into an RSML file that can be read by PAGE-Root. 
+The first step in the analysis is to transform the output data from CellSet into an RSML file that can be read by PAGER. 
 
 The CellSet data should be organised in separated Excell files, one per genotype. Each repetition of the genotype will be contained in a different sheet of the file. And example of CellSet output file can be [found here](/docs/cellset.xlsx). 
 
@@ -42,7 +42,7 @@ To launch the app, enter the following command in your R console:
 ![](img/cellset2pager.png)
 
 
-PAGE-Root accepts only specific cell types:
+PAGER accepts only specific cell types:
 
 - columella
 - cortex
@@ -63,7 +63,7 @@ PAGE-Root accepts only specific cell types:
 
 
 
-## PAGE-Root
+## PAGER
 
 PAGER has two main functions: 
 
@@ -95,7 +95,7 @@ PAGER has two main functions:
 
 5. Choose how to aggregate the data of each line / root / cell types
 
-6. Press `Launch PAGE-Root` to start the analysis. Depending on how many line you have, this can take a couple of minutes. 
+6. Press `Launch PAGER` to start the analysis. Depending on how many line you have, this can take a couple of minutes. 
 
 
 ### Compare two lines
