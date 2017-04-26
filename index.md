@@ -1,6 +1,9 @@
 
 # Using PAGE-Root
 
+[More information about PAGER](http://pageroot.github.io)
+
+
 1. [Requirements](#requirements)
 2. [CellSet2PAGER](#cellset2pager)
 3. [PAGE-Root](#page-root)
@@ -61,6 +64,7 @@ PAGER has two main functions:
 1. Comparing the expression of reporters between different lines or conditions
 2. Comparing the expression of reporters with the correponding gene expression level (e.g. microarray data)
 
+----
 
 
 ![](img/pageroot.png)
@@ -76,6 +80,7 @@ PAGER has two main functions:
 	- `value` : the expression value
 	- the example datafile comes from the article from [Lee et al. 2006](http://dx.doi.org/10.1073/pnas.0510607103)
 
+
 ### Choose the options
 
 3. Choose if you want to to use the absolute value (by default the values are standardized) and if you want to log2 transform your data. This applied only to the reporter data, not the gene data.
@@ -87,7 +92,7 @@ PAGER has two main functions:
 6. Press `Launch PAGE-Root` to start the analysis. Depending on how many line you have, this can take a couple of minutes. 
 
 
-### Explore your data
+### Compare two lines
 
 7. Choose the cell types to show in the output plots
 
@@ -108,8 +113,61 @@ PAGER has two main functions:
 	- **PCA plot:** Principal Comparison plot, highlighting the selected lines
 	- **AOV results:** Result talbe of the ANOVAcomparison between the two lines
 
+----
 
 
+### Explore correlations
+
+
+![](img/pageroot-1.png)
+
+1. Choose the `Correlation heatmaps` tab
+
+2. Choose the type of correlation you want to visualize
+
+----
+
+### Compare reporter to gene expression
+
+
+![](img/pageroot-2.png)
+
+1. Choose the `Compare Reporter to Gene` tab
+
+2. Select the gene to visualize. The corresponding gene will automatically be selected in the `microarray dataset`.
+
+3. Choose the cell types to show in the output plots
+
+4. Overall statistic between the reporter and the gene expression. For the correlation, the first value is the one obtained with all the cell types selected in `1`. Second value is only for the cell types selected in `7`
+	- linear regression
+	- Pearson correlation
+	- Spearman correlation
+
+
+5. ANOVA comparison for each cell types between the two selected line
+
+6. Visualisation of the reporter data
+	- **Boxplot:** Boxplot of the reporter values for the different cell types
+	- **Regression plot:** Regression of the cell types reporter valeus between the two cell types
+
+
+----
+
+### Download the processed data
+
+
+
+![](img/pageroot-3.png)
+
+1. Choose the `Download processed data` tab
+
+2. Choose the type of data you want to downloas, in `.csv` format
+
+
+
+
+
+[More information about PAGER](http://pageroot.github.io)
 
 
 
