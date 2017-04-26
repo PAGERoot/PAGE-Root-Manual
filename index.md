@@ -7,6 +7,12 @@
 1. [Requirements](#requirements)
 2. [CellSet2PAGER](#cellset2pager)
 3. [PAGE-Root](#page-root)
+	- [Load the data](#load-the-data)
+	- [Choose the options](#choose-the-options)
+	- [Compare two lines](#compare-two-lines)
+	- [Explore correlations](#explore-correlations)
+	- [Compare reporter to gene expression](#compare-reporter-to-gene-expression)
+	- [Download the processed data](#download-the-processed-data)
 
 ---
 
